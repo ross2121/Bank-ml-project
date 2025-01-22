@@ -14,7 +14,7 @@ CORS(app)
 # Initialize Firebase
 cred = credentials.Certificate(firebase_config)  # Update with your Firebase credentials path
 firebase_admin.initialize_app(cred, {
-    'storageBucket':"final-book-ae7ff.appspot.com"  
+    'storageBucket':""  
 })
 db = firestore.client()
 bucket = storage.bucket()
